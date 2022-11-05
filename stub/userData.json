@@ -1,0 +1,77 @@
+[
+	{
+		"date": "November 03, 2022",
+		"values": [
+			{
+				"title": "Calories",
+				"value": 2000,
+				"maxValue": 1500
+			},
+			{
+				"title": "Fats",
+				"value": 700,
+				"maxValue": 900
+			},
+			{
+				"title": "Proteins",
+				"value": 400,
+				"maxValue": 500
+			},
+			{
+				"title": "Carbohydrates",
+				"value": 500,
+				"maxValue": 200
+			}
+		]
+	},
+	{
+		"date": "November 10, 2022",
+		"values": [
+			{
+				"title": "Calories",
+				"value": 1500,
+				"maxValue": 1500
+			},
+			{
+				"title": "Fats",
+				"value": 1000,
+				"maxValue": 900
+			},
+			{
+				"title": "Proteins",
+				"value": 200,
+				"maxValue": 500
+			},
+			{
+				"title": "Carbohydrates",
+				"value": 500,
+				"maxValue": 200
+			}
+		]
+	},
+	{
+		"date": "November 20, 2022",
+		"values": [
+			{
+				"title": "Calories",
+				"value": 2100,
+				"maxValue": 1500
+			},
+			{
+				"title": "Fats",
+				"value": 800,
+				"maxValue": 900
+			},
+			{
+				"title": "Proteins",
+				"value": 600,
+				"maxValue": 500
+			},
+			{
+				"title": "Carbohydrates",
+				"value": 100,
+				"maxValue": 200
+			}
+		]
+	}
+]

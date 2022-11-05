@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chart render Chart component should be in the document 1`] = `
+<div>
+  <div
+    class="sc-iBYQkv bqmDcZ"
+  >
+    <div
+      class="sc-bcXHqe cNKIOy"
+    >
+      <span
+        class="sc-dkrFOg gUajxP"
+      >
+        Calories
+      </span>
+      <div
+        class="sc-gswNZR bRFjDI"
+      >
+        <div
+          class="sc-hLBbgP kdVVmG"
+        />
+        <div
+          class="sc-gKPRtg jtBuTa"
+        />
+        <span
+          class="sc-eDvSVe eSXpoT"
+        >
+          2000
+        </span>
+        <span
+          class="sc-jSUZER jKGhqI"
+        >
+          1500
+        </span>
+      </div>
+    </div>
+    <div
+      class="sc-bcXHqe cNKIOy"
+    >
+      <span
+        class="sc-dkrFOg gUajxP"
+      >
+        Fats
+      </span>
+      <div
+        class="sc-gswNZR bRFjDI"
+      >
+        <div
+          class="sc-hLBbgP kdVVmG"
+        />
+        <div
+          class="sc-gKPRtg cQBeSx"
+        />
+        <span
+          class="sc-eDvSVe eSXpoT"
+        >
+          800
+        </span>
+        <span
+          class="sc-jSUZER jKGhqI"
+        >
+          800
+        </span>
+      </div>
+    </div>
+    <div
+      class="sc-bcXHqe cNKIOy"
+    >
+      <span
+        class="sc-dkrFOg gUajxP"
+      >
+        Proteins
+      </span>
+      <div
+        class="sc-gswNZR bRFjDI"
+      >
+        <div
+          class="sc-hLBbgP wJgpY"
+        />
+        <div
+          class="sc-gKPRtg cQBeSx"
+        />
+        <span
+          class="sc-eDvSVe RCgGL"
+        >
+          700
+        </span>
+        <span
+          class="sc-jSUZER jKGhqI"
+        >
+          900
+        </span>
+      </div>
+    </div>
+    <div
+      class="sc-bcXHqe cNKIOy"
+    >
+      <span
+        class="sc-dkrFOg gUajxP"
+      >
+        Carbohydrates
+      </span>
+      <div
+        class="sc-gswNZR bRFjDI"
+      >
+        <div
+          class="sc-hLBbgP getOxh"
+        />
+        <div
+          class="sc-gKPRtg cQBeSx"
+        />
+        <span
+          class="sc-eDvSVe iCdyro"
+        >
+          400
+        </span>
+        <span
+          class="sc-jSUZER jKGhqI"
+        >
+          700
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
