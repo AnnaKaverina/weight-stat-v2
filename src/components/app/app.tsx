@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import theme from '../../constants/theme';
 import MainPage from '../../pages/main-page/main-page';
+import AddStatPage from '../../pages/add-stat-page/add-stat-page';
 import { store } from '../../store/store';
 import { Provider } from 'react-redux';
 
@@ -37,6 +38,7 @@ function App() {
 					<GlobalStyle />
 					<Routes>
 						<Route path="/" element={<MainPage />} />
+						<Route path="/add-stat" element={<AddStatPage />} />
 					</Routes>
 				</ThemeProvider>
 			</BrowserRouter>

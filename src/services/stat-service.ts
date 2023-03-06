@@ -10,11 +10,21 @@ export const statApi = createApi({
 				headers.set('Content-Type', 'application/json');
 			}
 		}),
+	// tagTypes: ['userDataItem'],
 	endpoints: (builder) => ({
-		getStat: builder.query<Array<IUserDataItem>, string>({
+		getStat: builder.query<Array<IUserDataItem>, void>({
 			query: () => '/stat',
+			// providesTags: ['userDataItem'],
+		}),
+		addStat: builder.mutation<void, IUserDataItem>({
+			query: (item) => ({
+				url: '/add-stat',
+				method: 'POST',
+				body: item
+			}),
+			// invalidatesTags: ['userDataItem'],
 		}),
 	}),
 });
 
-export const { useGetStatQuery } = statApi;
+export const { useGetStatQuery, useAddStatMutation } = statApi;

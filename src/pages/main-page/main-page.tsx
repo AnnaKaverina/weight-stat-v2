@@ -6,14 +6,13 @@ import { DateInfo } from './main-page.style';
 import { SwiperSection } from '../../components/swiper-section/swiper-section';
 import 'swiper/swiper.css';
 import { IUserDataItem } from '../../interfaces/user-data.interface';
-import { useGetStatQuery } from '../../api/stat';
+import { useGetStatQuery } from '../../services/stat-service';
 
 function MainPage() {
 	const dispatch = useAppDispatch();
 	const currentDate = getTitleLocaleDate(new Date());
 
-	// todo use query argument???
-	const { data: userData } = useGetStatQuery('');
+	const { data: userData } = useGetStatQuery();
 
 	useEffect(() => {
 		if (userData) {

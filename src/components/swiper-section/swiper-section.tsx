@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useNavigate } from 'react-router-dom';
 import { Title, SlideInner } from './swiper-section.style';
 import { IUserDataItem } from '../../interfaces/user-data.interface';
 import { Swiper as SwiperType } from 'swiper';
@@ -9,10 +10,15 @@ import { useAppSelector } from '../../hooks/redux';
 import { RootState } from '../../store/store';
 
 export const SwiperSection = () => {
+	const navigate = useNavigate();
 	const userState = useAppSelector((root: RootState) => root.user);
 	const currentDate = getTitleLocaleDate(new Date());
 	const [swiperInst, setSwiperInst] = useState<SwiperType | null>(null);
 	const [slideDate, setSlideDate] = useState('');
+
+	const redirect = () => {
+		navigate('/add-stat');
+	};
 
 	const renderChartSlides = useCallback((userData: Array<IUserDataItem>) => {
 		return userData.map((userDataItem, id) => {
@@ -22,7 +28,7 @@ export const SwiperSection = () => {
 						<Chart values={userDataItem.values} />
 					) : (
 						<SlideInner>
-							<button>Add info</button>
+							<button onClick={redirect}>Add info</button>
 						</SlideInner>
 					)}
 				</SwiperSlide>
